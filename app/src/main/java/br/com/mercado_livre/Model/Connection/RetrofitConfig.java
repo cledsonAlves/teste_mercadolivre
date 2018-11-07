@@ -13,7 +13,7 @@ public class RetrofitConfig {
     private final String BASE_URL = "https://api.mercadopago.com/v1/";
 
     public RetrofitConfig() {
-        this.retrofit =  new Retrofit.Builder().baseUrl("").
+        this.retrofit =  new Retrofit.Builder().baseUrl(BASE_URL).
                 addConverterFactory(JacksonConverterFactory.create()).
                 build();
 
