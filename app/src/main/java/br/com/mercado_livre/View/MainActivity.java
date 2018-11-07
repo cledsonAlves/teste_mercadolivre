@@ -1,7 +1,9 @@
-package br.com.mercado_livre;
+package br.com.mercado_livre.View;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import br.com.mercado_livre.R;
 
 public class MainActivity extends AppCompatActivity {
 
