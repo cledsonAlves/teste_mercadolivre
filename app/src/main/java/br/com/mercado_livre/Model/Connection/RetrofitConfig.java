@@ -1,5 +1,6 @@
 package br.com.mercado_livre.Model.Connection;
 
+import br.com.mercado_livre.Model.Service.SelectBankService;
 import retrofit2.Retrofit;
 import retrofit2.converter.jackson.JacksonConverterFactory;
 
@@ -19,5 +20,8 @@ public class RetrofitConfig {
 
     }
 
+    public SelectBankService getServiceBank(){
+        return this.retrofit.create(SelectBankService.class);
+    }
 
 }
