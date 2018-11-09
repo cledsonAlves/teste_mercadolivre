@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Mercado_livre</string>
+    <string name="btn_next">Avançar</string>
 
     <!-- Payment Methods -->
     <string name="select_method">Selecione meios de Pagamento</string>
+
+    <!-- Select Banks -->
+    <string name="select_bank">Selecione o banco</string>
+
+
+    <string name="select_plots">Selecione o valor das parcelas</string>
+
+
 </resources>

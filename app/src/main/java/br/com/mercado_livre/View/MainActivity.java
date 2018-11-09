@@ -8,6 +8,7 @@ import android.widget.Toast;
 import br.com.mercado_livre.Model.CardIssuers;
 import br.com.mercado_livre.Model.Connection.RetrofitConfig;
 import br.com.mercado_livre.R;
+import br.com.mercado_livre.ViewModel.ViewPaymentModel;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -18,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        new ViewPaymentModel();
     }
 }
